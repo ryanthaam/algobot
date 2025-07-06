@@ -71,5 +71,4 @@ Only trades with high predicted success probability (e.g., >70%) are executed.
 
 ---
 
-## 📁 Project Structure
 
