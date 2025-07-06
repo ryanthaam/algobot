@@ -1,6 +1,6 @@
 # 🤖 AlgoBot
 
-An automated ETHUSDT trading bot designed to execute high-probability liquidity sweep setups with disciplined risk management — now enhanced with ML-based trade filtering using Random Forest.
+An automated trading bot designed to execute high-probability liquidity sweep setups with disciplined risk management enhanced with ML-based trade filtering using Random Forest.
 
 ---
 
@@ -17,7 +17,7 @@ AlgoBot combines:
 
 ## 🧠 Strategy Summary
 
-- **Market**: ETHUSDT (1m / 5m)
+- **Market**: Nasdaq, S&P500 (1m / 5m)
 - **Entry Conditions**:
   - Price sweeps above/below a key high/low
   - Structure shift confirmation
@@ -33,13 +33,13 @@ AlgoBot combines:
 
 | Feature                  | Description                                                      |
 |--------------------------|------------------------------------------------------------------|
-| ✅ Liquidity Sweep Logic | Detect fakeouts using candle/volume/structure                    |
-| ✅ Risk Engine           | Configurable RR model with SL/TP + capital exposure rules         |
-| ✅ ML Trade Filter       | Uses Random Forest classifier trained on past setups              |
-| ✅ Bybit Integration     | REST + WebSocket APIs for live trading and market data            |
-| 🔜 Backtester Module     | Run offline simulations on historical OHLCV data                  |
-| 🔜 Trade Log Dashboard   | Visual logs (Streamlit) with win-rate, RR distribution, equity curve |
-| 🔜 Alerts (Telegram)     | Optional trade alerts + daily summary                             |
+|  Liquidity Sweep Logic | Detect fakeouts using candle/volume/structure                    |
+|  Risk Engine           | Configurable RR model with SL/TP + capital exposure rules         |
+|  ML Trade Filter       | Uses Random Forest classifier trained on past setups              |
+|  Bybit Integration     | REST + WebSocket APIs for live trading and market data            |
+|  Backtester Module     | Run offline simulations on historical OHLCV data                  |
+|  Trade Log Dashboard   | Visual logs (Streamlit) with win-rate, RR distribution, equity curve |
+|  Alerts (Telegram)     | Optional trade alerts + daily summary                             |
 
 ---
 
